@@ -1,0 +1,41 @@
+#dateInput {
+    padding-top: 100px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+#dateInput>input,
+button {
+    font-size: 20px;
+}
+
+#dateTable {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    padding-top: 100px;
+}
+
+table {
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th:hover{
+    border: 2px solid #dddddd;
+    box-shadow: 5px 3px #3c3c3c;
+}
